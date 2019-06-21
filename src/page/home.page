@@ -1,0 +1,16 @@
+<template lang="pug">
+.home
+  temple(name="topBar", logo="http://www.people.com.cn/img/MAIN/2014/06/114539/images/nav/logo_rmw.png",  src="http://154.8.196.163:8004/public/c96a8344c303d3b4769da9903c0d2c5a.page")
+  //- temple(name="titleBar", src="./src/module/titleBar.owo")
+  .content.w1000
+    
+  temple(name="copyright", src="http://154.8.196.163:8004/public/ae9b992ba8eea6a6996d4e59ff409199.page")  
+</template>
+
+
+<style lang="less">
+.w1000 {
+  width: 1000px;
+  margin: 0 auto;
+}
+</style>

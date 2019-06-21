@@ -1,0 +1,88 @@
+body, html, .ox {
+  padding: 0;
+  margin: 0;
+}
+
+.owo-animation {
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+/* 清除浮动 */
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  zoom: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.title-bar[template=topBar] {
+  height: 40px;
+  background-color: #ffffff;
+}
+
+[template=topBar] .title-bar-content {
+  width: 1000px;
+  height: 40px;
+  margin: auto;
+}
+
+[template=topBar] img {
+  margin: 5px 10px;
+  height: 30px;
+}
+
+[template=topBar] a {
+  float: left;
+  display: block;
+}
+
+[template=topBar] .link {
+  color: rgba(102, 102, 102, 1.00);
+  font-size: 14px;
+  margin: 0 10px;
+  line-height: 40px;
+}
+
+[template=topBar] a {
+  color: #333;
+  text-decoration: none;
+}
+footer[template=copyright] {
+  color: #000000;
+  font-size: 12px;
+  position: relative;
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+[template=copyright] p {
+  margin: 12px 0;
+  line-height: 40px;
+  text-align: center;
+}
+[template=home] .w1000 {
+  width: 1000px;
+  margin: 0 auto;
+}
