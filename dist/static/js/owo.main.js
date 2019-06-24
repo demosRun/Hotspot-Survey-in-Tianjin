@@ -1,16 +1,56 @@
-// Fri Jun 21 2019 16:10:09 GMT+0800 (GMT+08:00)
+// Mon Jun 24 2019 11:03:40 GMT+0800 (GMT+08:00)
 
 "use strict";
 
 window.owo = {
   // 页面数据和方法
   script: {
-    "home": {},
+    "home": {
+      "template": {
+        "list": {
+          "data": {
+            "itemLiat": [{
+              "name": "雅加达，别说再见",
+              "url": "http://www.people.com.cn/",
+              "time": "2018-09-03 13:38"
+            }, {
+              "name": "雅加达亚运夺金练兵兼顾 中国军团提速迈向东京奥运雅加达亚运夺金练兵兼顾 中国军团提速迈向东京奥运雅加达亚运夺金练兵兼顾 中国军团提速迈向东京奥运",
+              "url": "http://www.people.com.cn/",
+              "time": "2018-09-03 13:38"
+            }, {
+              "name": "高清：2018年雅加达亚运会 闭幕式盛况",
+              "url": "http://www.people.com.cn/",
+              "time": "2018-09-03 13:38"
+            }, {
+              "name": "高清：2018雅加达亚运会闭幕式 亚运会会旗交接仪式",
+              "url": "http://www.people.com.cn/",
+              "time": "2018-09-03 13:38"
+            }, {
+              "name": "高清：2018雅加达亚运会闭幕式 “杭州八分钟”惊艳呈现",
+              "url": "http://www.people.com.cn/",
+              "time": "2018-09-03 13:38"
+            }, {
+              "name": "高清：2018雅加达亚运会闭幕式 运动员入场仪式",
+              "url": "http://www.people.com.cn/",
+              "time": "2018-09-03 13:38"
+            }]
+          },
+          "prop": {}
+        }
+      }
+    },
     "topBar": {
       "prop": {
         "logo": "http://www.people.com.cn/img/MAIN/2014/06/114539/images/nav/logo_rmw.png"
       }
     },
+    "editor": {},
+    "imageTitle": {
+      "prop": {
+        "imgsrc": "./static/resource/title3.png"
+      }
+    },
+    "show": {},
     "copyright": {}
   },
   // 页面默认入口
