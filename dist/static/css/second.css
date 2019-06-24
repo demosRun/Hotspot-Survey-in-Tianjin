@@ -193,6 +193,7 @@ h3 {
   border-radius: 5px;
   margin: 40px auto;
   display: block;
+  cursor: pointer;
 }
 
 textarea {
