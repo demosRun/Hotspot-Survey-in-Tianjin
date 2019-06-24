@@ -30,6 +30,8 @@
     .logo-bar
       img(src="@&logo-bar.png&", height="73", width="890")
     .border-title 扫一扫，下载手机客户端
+    .qr-box
+      img(src="@&qr.jpg&")
   temple(name="copyright", src="http://154.8.196.163:8004/public/ae9b992ba8eea6a6996d4e59ff409199.page")
 
 </template>
@@ -41,12 +43,12 @@
   margin: 0 auto;
 }
 .editor-note {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .line {
   height: 15px;
   background-color: #b0230a;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .vote {
   height: 500px;
@@ -106,7 +108,7 @@
 .news-list {
   background-color: #f2f6ff;
   padding-bottom: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   position: relative;
   .news-list-item {
     width: 46%;
@@ -133,5 +135,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-image: url('@&border.svg&');
+  margin-bottom: 40px;
+}
+.qr-box {
+  text-align: center;
+  margin-bottom: 40px;
 }
 </style>

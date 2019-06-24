@@ -10,12 +10,17 @@ body, html {
   min-height: 100%;
 }
 body {
-  background-color: white;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center 40px;
   min-width: 1200px;
   background-image: url('@&bg.jpg&');
+}
+html {
+  background-image: url('@&bg-bottom.jpg&');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-color: white;
 }
 h1, h2, h3, h4, h5, input {
   margin: 0;
@@ -54,4 +59,8 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 
 .title-bar[template=topBar] {
   margin-bottom: 22%;
+}
+
+footer[template=copyright] {
+  margin-bottom: 80px;
 }

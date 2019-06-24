@@ -19,6 +19,10 @@
     display: inline;
     padding-right: 15px;
   }
+  a {
+    display: inline;
+    color: #7f1c34;
+  }
 }
 p {
   z-index: 999;
@@ -27,7 +31,7 @@ p {
   display: inline;
   color: #3a7a60;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 32px;
 }
 strong {
   color: #7f1c34;

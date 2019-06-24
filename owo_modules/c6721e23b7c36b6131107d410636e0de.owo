@@ -9,12 +9,10 @@
     color: #000000;
     font-size: 12px;
     position: relative;
-    background-color: #ffffff;
-    padding: 40px;
   }
   p {
     margin: 12px 0;
-    line-height: 40px;
+    line-height: 30px;
     text-align: center;
   }
 </style>
