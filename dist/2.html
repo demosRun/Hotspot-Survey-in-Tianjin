@@ -29,141 +29,463 @@
 
 <body>
   <!-- 页面区域 -->
-  <div class="home">
-    <h1>第一部分：您的基本情况</h1>
-    <h2>近一年来，城市治理、生态环境、营商环境等是社会各界都很关注的热点话题。对于这些话题，您最关心的具体问题有哪些，请给出您的选项。</h2>
-    <div class="check-box radio">
-      <h3>1.1 您的性别是</h3>
-      <label class="radio-block">
-        <input name="radio1" type="radio" hidden>
-        <span class="radio-style"></span>
-        男
-      </label>
-      <label class="radio-block">
-        <input name="radio2" type="radio" hidden>
-        <span class="radio-style"></span>
-        女
-      </label>
-    </div>
+  <form>
+      <div class="info">
+        <h2>请您填写个人概况</h2>
+        <p class="title">
+          <span>年&nbsp;&nbsp;龄:</span>
+          <select class="" name="Age">
+            <option value="1920">1920年</option>
+            <option value="1921">1921年</option>
+            <option value="1922">1922年</option>
+            <option value="1923">1923年</option>
+            <option value="1924">1924年</option>
+            <option value="1925">1925年</option>
+            <option value="1926">1926年</option>
+            <option value="1927">1927年</option>
+            <option value="1928">1928年</option>
+            <option value="1929">1929年</option>
+            <option value="1930">1930年</option>
+            <option value="1931">1931年</option>
+            <option value="1932">1932年</option>
+            <option value="1933">1933年</option>
+            <option value="1934">1934年</option>
+            <option value="1935">1935年</option>
+            <option value="1936">1936年</option>
+            <option value="1937">1937年</option>
+            <option value="1938">1938年</option>
+            <option value="1939">1939年</option>
+            <option value="1940">1940年</option>
+            <option value="1941">1941年</option>
+            <option value="1942">1942年</option>
+            <option value="1943">1943年</option>
+            <option value="1944">1944年</option>
+            <option value="1945">1945年</option>
+            <option value="1946">1946年</option>
+            <option value="1947">1947年</option>
+            <option value="1948">1948年</option>
+            <option value="1949">1949年</option>
+            <option value="1950">1950年</option>
+            <option value="1951">1951年</option>
+            <option value="1952">1952年</option>
+            <option value="1953">1953年</option>
+            <option value="1954">1954年</option>
+            <option value="1955">1955年</option>
+            <option value="1956">1956年</option>
+            <option value="1957">1957年</option>
+            <option value="1958">1958年</option>
+            <option value="1959">1959年</option>
+            <option value="1960">1960年</option>
+            <option value="1961">1961年</option>
+            <option value="1962">1962年</option>
+            <option value="1963">1963年</option>
+            <option value="1964">1964年</option>
+            <option value="1965" selected="selected">1965年</option>
+            <option value="1966">1966年</option>
+            <option value="1967">1967年</option>
+            <option value="1968">1968年</option>
+            <option value="1969">1969年</option>
+            <option value="1970">1970年</option>
+            <option value="1971">1971年</option>
+            <option value="1972">1972年</option>
+            <option value="1973">1973年</option>
+            <option value="1974">1974年</option>
+            <option value="1975">1975年</option>
+            <option value="1976">1976年</option>
+            <option value="1977">1977年</option>
+            <option value="1978">1978年</option>
+            <option value="1979">1979年</option>
+            <option value="1980">1980年</option>
+            <option value="1981">1981年</option>
+            <option value="1982">1982年</option>
+            <option value="1983">1983年</option>
+            <option value="1984">1984年</option>
+            <option value="1985">1985年</option>
+            <option value="1986">1986年</option>
+            <option value="1987">1987年</option>
+            <option value="1988">1988年</option>
+            <option value="1989">1989年</option>
+            <option value="1990">1990年</option>
+            <option value="1991">1991年</option>
+            <option value="1992">1992年</option>
+            <option value="1993">1993年</option>
+            <option value="1994">1994年</option>
+            <option value="1995">1995年</option>
+            <option value="1996">1996年</option>
+            <option value="1997">1997年</option>
+            <option value="1998">1998年</option>
+            <option value="1999">1999年</option>
+            <option value="2000">2000年</option>
+            <option value="2001">2001年</option>
+            <option value="2002">2002年</option>
+            <option value="2003">2003年</option>
+            <option value="2004">2004年</option>
+            <option value="2005">2005年</option>
+          </select>
+          <span>性&nbsp;&nbsp;别:</span>
+          <select class="" name="Sex">
+            <option value="男">男</option>
+            <option value="女">女</option>
+          </select>
+          <span>地&nbsp;&nbsp;区:</span>
+          <select class="" name="City">
+            <option value="北京">北京</option>
+            <option value="天津">天津</option>
+            <option value="河北">河北</option>
+            <option value="山西">山西</option>
+            <option value="内蒙古">内蒙古</option>
+            <option value="辽宁">辽宁</option>
+            <option value="吉林">吉林</option>
+            <option value="黑龙江">黑龙江</option>
+            <option value="上海">上海</option>
+            <option value="江苏">江苏</option>
+            <option value="浙江">浙江</option>
+            <option value="安徽">安徽</option>
+            <option value="福建">福建</option>
+            <option value="江西">江西</option>
+            <option value="山东">山东</option>
+            <option value="河南">河南</option>
+            <option value="湖北">湖北</option>
+            <option value="湖南">湖南</option>
+            <option value="广东">广东</option>
+            <option value="广西">广西</option>
+            <option value="海南">海南</option>
+            <option value="重庆">重庆</option>
+            <option value="四川">四川</option>
+            <option value="贵州">贵州</option>
+            <option value="云南">云南</option>
+            <option value="西藏">西藏</option>
+            <option value="陕西">陕西</option>
+            <option value="甘肃">甘肃</option>
+            <option value="青海">青海</option>
+            <option value="宁夏">宁夏</option>
+            <option value="新疆">新疆</option>
+            <option value="港澳台">港澳台</option>
+            <option value="国外">国外</option>
+          </select>
+        </p>
+        <p class="title">
+          <span>学&nbsp;&nbsp;历:</span>
+          <select class="" name="Education">
+            <option value="初中及以下">初中及以下</option>
+            <option value="高中（职业高中/普通高中）/中专/技校">高中（职业高中/普通高中）/中专/技校</option>
+            <option value="大学专科/高职高专">大学专科/高职高专</option>
+            <option value="大学本科">大学本科</option>
+            <option value="研究生及以上">研究生及以上</option>
+            <option value="其他">其他</option>
+          </select>
+          <span>政治面貌:</span>
+          <select class="" name="Status">
+            <option value="中共党员">中共党员</option>
+            <option value="民主党派">民主党派</option>
+            <option value="共青团员">共青团员</option>
+            <option value="群众">群众</option>
+          </select>
+          <span>月均收入:</span>
+          <select class="" name="Income">
+            <option value="2500以下">2500以下</option>
+            <option value="2500-5000">2500-5000</option>
+            <option value="5000-10000">5000-10000</option>
+            <option value="10000-20000">10000-20000</option>
+            <option value="20000以上">20000以上</option>
+          </select>
+        </p>
+        <p class="title">
+          <span>就业状态:</span>
+          <select class="" name="Work">
+            <option value="学生">学生</option>
+            <option value="党政机关事业单位领导干部">党政机关事业单位领导干部</option>
+            <option value="党政机关失业单位一般职员">党政机关失业单位一般职员</option>
+            <option value="企业\公司高层管理人员">企业\公司高层管理人员</option>
+            <option value="企业\公司一般职员">企业\公司一般职员</option>
+            <option value="专业技术人员">专业技术人员</option>
+            <option value="商业服务业人员">商业服务业人员</option>
+            <option value="制造生产型企业人员">制造生产型企业人员</option>
+            <option value="农林牧渔水利业生产人员">农林牧渔水利业生产人员</option>
+            <option value="个体劳动者">个体劳动者</option>
+            <option value="退休人员">退休人员</option>
+            <option value="无业\下岗\失业">无业\下岗\失业</option>
+            <option value="其他">其他</option>
+          </select>
+          <span>姓&nbsp;&nbsp;名:</span>
+          <input type="text"/>
+          <span>联系方式:</span>
+          <input type="text"/>
+        </p>
+        <p class="red">注：以上信息只作系统分析之用，我们将严格保护您的个人隐私！</p>
+      </div>
+      <div class="home">
+        
+    
+        <h1>第一部分：您最关心身边哪些民生问题？</h1>
+        <h2>近一年来，城市治理、生态环境、营商环境等是社会各界都很关注的热点话题。对于这些话题，您最关心的具体问题有哪些，请给出您的选项。</h2>
+    
+        <div class="check-box radio">
+          <h3>1.1 对于城市治理话题，您最关心</h3>
+          <label class="radio-block"><input type="radio" name="govern" value="城市规划" hidden><span class="radio-style"></span>城市规划</span>
+          <label class="radio-block"><input type="radio" name="govern" value="道路交通" hidden><span class="radio-style"></span>道路交通</span>
+          <label class="radio-block"><input type="radio" name="govern" value="市容市貌" hidden><span class="radio-style"></span>市容市貌</span>
+          <label class="radio-block"><input type="radio" name="govern" value="配套设施" hidden><span class="radio-style"></span>配套设施</span>
+          <label class="radio-block"><input type="radio" name="govern" value="公共服务" hidden><span class="radio-style"></span>公共服务</span>
+          <label class="radio-block"><input type="radio" name="govern" value="治安环境" hidden><span class="radio-style"></span>治安环境</span>
+        </div>
+    
+        <div class="check-box radio">
+          <h3>1.2 对于生态环境话题，您最关心</h3>
+          <label class="radio-block"><input type="radio" name="environment" value="水污染" hidden><span class="radio-style"></span>水污染</span>
+          <label class="radio-block"><input type="radio" name="environment" value="空气污染" hidden><span class="radio-style"></span>空气污染</span>
+          <label class="radio-block"><input type="radio" name="environment" value="固体废弃物污染" hidden><span class="radio-style"></span>固体废弃物污染</span>
+          <label class="radio-block"><input type="radio" name="environment" value="噪音污染" hidden><span class="radio-style"></span>噪音污染</span>
+    
+        </div>
+    
+        <div class="check-box radio">
+          <h3>1.3 对于营商环境话题，您最关心</h3>
+          <label class="radio-block"><input type="radio" name="business" value="企业税费负担" hidden><span class="radio-style"></span>企业税费负担</span>
+          <label class="radio-block"><input type="radio" name="business" value="融资难融资贵" hidden><span class="radio-style"></span>融资难融资贵</span>
+          <label class="radio-block"><input type="radio" name="business" value="市场公平竞争环境" hidden><span class="radio-style"></span>市场公平竞争环境</span>
+          <label class="radio-block"><input type="radio" name="business" value="政策执行方式" hidden><span class="radio-style"></span>政策执行方式</span>
+          <label class="radio-block"><input type="radio" name="business" value="政商关系" hidden><span class="radio-style"></span>政商关系</span>
+          <label class="radio-block"><input type="radio" name="business" value="企业家人身和财产安全" hidden><span class="radio-style"></span>企业家人身和财产安全</span>
+    
+        </div>
+    
+        <div class="check-box radio">
+          <h3>1.4 对于教育话题，您最关心</h3>
+          <label class="radio-block"><input type="radio" name="education" value="教育资源分配" hidden><span class="radio-style"></span>教育资源分配</span>
+          <label class="radio-block"><input type="radio" name="education" value="教育质量" hidden><span class="radio-style"></span>教育质量</span>
+          <label class="radio-block"><input type="radio" name="education" value="校园安全管理" hidden><span class="radio-style"></span>校园安全管理</span>
+          <label class="radio-block"><input type="radio" name="education" value="水污染" hidden><span class="radio-style"></span>教师待遇</span>
+          <label class="radio-block"><input type="radio" name="education" value="教师待遇" hidden><span class="radio-style"></span>学生就业</span>
+        </div>
+    
+        <div class="check-box radio">
+          <h3>1.5 对于医疗话题，您最关心</h3>
+          <label class="radio-block"><input type="radio" name="medical" value="医疗技术发展" hidden><span class="radio-style"></span>医疗技术发展</span>
+          <label class="radio-block"><input type="radio" name="medical" value="医疗资源分配" hidden><span class="radio-style"></span>医疗资源分配</span>
+          <label class="radio-block"><input type="radio" name="medical" value="医疗保险与医疗花费" hidden><span class="radio-style"></span>医疗保险与医疗花费</span>
+          <label class="radio-block"><input type="radio" name="medical" value="医患关系" hidden><span class="radio-style"></span>医患关系</span>
+        </div>
+    
+        <div class="check-box radio">
+          <h3>1.6 对于创新创业话题，您最关心</h3>
+          <label class="radio-block"><input type="radio" name="innovate" value="新科技发展进步" hidden><span class="radio-style"></span>新科技发展进步</span>
+          <label class="radio-block"><input type="radio" name="innovate" value="政策保障与支持" hidden><span class="radio-style"></span>政策保障与支持</span>
+          <label class="radio-block"><input type="radio" name="innovate" value="创业项目" hidden><span class="radio-style"></span>创业项目</span>
+          <label class="radio-block"><input type="radio" name="innovate" value="人才引进与培育" hidden><span class="radio-style"></span>人才引进与培育</span>
+        </div>
+    
+        <div class="check-box radio">
+          <h3>1.7 对于三农话题，您最关心</h3>
+          <label class="radio-block"><input type="radio" name="farmer" value="农业发展" hidden><span class="radio-style"></span>农业发展</span>
+          <label class="radio-block"><input type="radio" name="farmer" value="农村发展" hidden><span class="radio-style"></span>农村发展</span>
+          <label class="radio-block"><input type="radio" name="farmer" value="农民群体" hidden><span class="radio-style"></span>农民群体</span>
+        </div>
+    
+        <div class="check-box radio">
+          <h3>1.8 对于网络环境话题，您最关心</h3>
+          <label class="radio-block"><input type="radio" name="network" value="信息技术发展" hidden><span class="radio-style"></span>信息技术发展</span>
+          <label class="radio-block"><input type="radio" name="network" value="数据安全" hidden><span class="radio-style"></span>数据安全</span>
+          <label class="radio-block"><input type="radio" name="network" value="网络诈骗" hidden><span class="radio-style"></span>网络诈骗</span>
+          <label class="radio-block"><input type="radio" name="network" value="产权保护" hidden><span class="radio-style"></span>产权保护</span>
+          <label class="radio-block"><input type="radio" name="network" value="青少年上网环境" hidden><span class="radio-style"></span>青少年上网环境</span>
+        </div>
+    
+        <div class="check-box radio">
+          <h3>1.9 对于百姓收入话题，您关心</h3>
+          <label class="radio-block"><input type="radio" name="income" value="工资待遇" hidden><span class="radio-style"></span>工资待遇</span>
+          <label class="radio-block"><input type="radio" name="income" value="退休保障" hidden><span class="radio-style"></span>退休保障</span>
+          <label class="radio-block"><input type="radio" name="income" value="收入分配" hidden><span class="radio-style"></span>收入分配</span>
+          <label class="radio-block"><input type="radio" name="income" value="低收入群体" hidden><span class="radio-style"></span>低收入群体</span>
+        </div>
+    
+        <div class="check-box radio">
+          <h3>1.10 对于城乡住房话题，您最关心</h3>
+          <label class="radio-block"><input type="radio" name="housing" value="房价" hidden><span class="radio-style"></span>房价</span>
+          <label class="radio-block"><input type="radio" name="housing" value="开发商夸大宣传" hidden><span class="radio-style"></span>开发商夸大宣传</span>
+          <label class="radio-block"><input type="radio" name="housing" value="配套设施与物业管理" hidden><span class="radio-style"></span>配套设施与物业管理</span>
+          <label class="radio-block"><input type="radio" name="housing" value="城市拆迁与棚户区改造" hidden><span class="radio-style"></span>城市拆迁与棚户区改造</span>
+          <label class="radio-block"><input type="radio" name="housing" value="保障性住房" hidden><span class="radio-style"></span>保障性住房	</span>
+        </div>
+    
+        <div class="check-box radio">
+          <h3>1.11 对于精准扶贫话题，您最关心</h3>
+          <label class="radio-block"><input type="radio" name="poor" value="扶贫对象选择" hidden><span class="radio-style"></span>扶贫对象选择</span>
+          <label class="radio-block"><input type="radio" name="poor" value="扶贫项目安排" hidden><span class="radio-style"></span>扶贫项目安排</span>
+          <label class="radio-block"><input type="radio" name="poor" value="扶贫资金使用" hidden><span class="radio-style"></span>扶贫资金使用</span>
+          <label class="radio-block"><input type="radio" name="poor" value="脱贫成效" hidden><span class="radio-style"></span>脱贫成效</span>
+        </div>
+    
+        <div class="check-box radio">
+          <h3>1.12 对于休闲旅游，您最关心</h3>
+          <label class="radio-block"><input type="radio" name="tourism" value="休闲产业多元化发展" hidden><span class="radio-style"></span>休闲产业多元化发展</span>
+          <label class="radio-block"><input type="radio" name="tourism" value="相关费用支出" hidden><span class="radio-style"></span>相关费用支出</span>
+          <label class="radio-block"><input type="radio" name="tourism" value="景区质量与服务" hidden><span class="radio-style"></span>景区质量与服务</span>
+          <label class="radio-block"><input type="radio" name="tourism" value="旅行社与导游服务" hidden><span class="radio-style"></span>旅行社与导游服务</span>
+        </div>
+    
+        <div class="check-box radio">
+          <h3>1.13 对于政务服务话题，您最关心</h3>
+          <label class="radio-block"><input type="radio" name="affairs" value="信息公开与共享" hidden><span class="radio-style"></span>信息公开与共享</span>
+          <label class="radio-block"><input type="radio" name="affairs" value="监督执纪问责" hidden><span class="radio-style"></span>监督执纪问责</span>
+          <label class="radio-block"><input type="radio" name="affairs" value="办事难" hidden><span class="radio-style"></span>办事难</span>
+          <label class="radio-block"><input type="radio" name="affairs" value="中介服务" hidden><span class="radio-style"></span>中介服务</span>
+        </div>
+    
+        <h1>第二部分：您对网上群众工作平台有哪些建议？</h1>
+        <h2>现在，网友可以通过各级各地的网上群众工作平台提出自己的思考和建议。您了解网上群众工作平台吗？对于平台和各地开展的相关工作，您有什么建议和意见？</h2>
+    
+        <div class="check-box radio">
+          <h3>2.1 您通常习惯用哪种渠道反映问题？</h3>
+          <label class="radio-block"><input type="radio" name="channel" value="给书记市长信箱留言" hidden><span class="radio-style"></span>给书记市长信箱留言</span>
+          <label class="radio-block"><input type="radio" name="channel" value="在微博微信论坛等自媒体发帖" hidden><span class="radio-style"></span>在微博微信论坛等自媒体发帖</span>
+          <label class="radio-block"><input type="radio" name="channel" value="信访" hidden><span class="radio-style"></span>信访</span>
+          <label class="radio-block"><input type="radio" name="channel" value="司法举报" hidden><span class="radio-style"></span>司法举报</span>
+          <label class="radio-block"><input type="radio" name="channel" value="网上群众工作平台" hidden><span class="radio-style"></span>网上群众工作平台</span>
+    
+        </div>
+    
+        <div class="check-box radio">
+          <h3>2.2 您在上述渠道反映的问题，得到了解决吗?</h3>
+          <label class="radio-block"><input type="radio" name="solve" value="没解决" hidden><span class="radio-style"></span>没解决</span>
+          <label class="radio-block"><input type="radio" name="solve" value="已经部分解决" hidden><span class="radio-style"></span>已经部分解决</span>
+          <label class="radio-block"><input type="radio" name="solve" value="已经全部解决" hidden><span class="radio-style"></span>已经全部解决</span>
+          <label class="radio-block"><input type="radio" name="solve" value="正在办理中" hidden><span class="radio-style"></span>正在办理中</span>
+    
+    
+        </div>
+    
+        <div class="check-box radio">
+          <h3>2.3 您是否听说过网上群众工作平台?</h3>
+          <label class="radio-block"><input type="radio" onclick="know(true)"  name="tsgqzxfpt" value="是" hidden><span class="radio-style"></span>是</span>
+          <label class="radio-block"><input type="radio" onclick="know(true)"  name="tsgqzxfpt" value="否" hidden><span class="radio-style"></span>否</span>
+        </div>
+        
+        <!-- 我听说过 -->
+        <div class="know">
+          <div class="check-box radio">
+            <h3>2.4 您在网上群众工作平台留言的次数是？</h3>
+            <label class="radio-block"><input type="radio" name="frequency" value="1次" hidden><span class="radio-style"></span>1次</span>
+            <label class="radio-block"><input type="radio" name="frequency" value="2次" hidden><span class="radio-style"></span>2次</span>
+            <label class="radio-block"><input type="radio" name="frequency" value="3-5次" hidden><span class="radio-style"></span>3-5次</span>
+            <label class="radio-block"><input type="radio" name="frequency" value="5次以上" hidden><span class="radio-style"></span>5次以上</span>
+      
+          </div>
+      
+          <div class="check-box radio">
+            <h3>2.5 您通常习惯用哪种渠道留言？</h3>
+            <label class="radio-block"><input type="radio" name="equipment" value="PC端页面" hidden><span class="radio-style"></span>PC端页面</span>
+            <label class="radio-block"><input type="radio" name="equipment" value="手机" hidden><span class="radio-style"></span>手机</span>
+            <label class="radio-block"><input type="radio" name="equipment" value="PAD等移动设备" hidden><span class="radio-style"></span>PAD等移动设备</span>
+      
+          </div>
+      
+          <div class="check-box radio">
+            <h3>2.6 您更倾向于给谁留言？</h3>
+            <label class="radio-block"><input type="radio" name="who" value="省委书记、省长" hidden><span class="radio-style"></span>省委书记、省长</span>
+            <label class="radio-block"><input type="radio" name="who" value="市委书记、市长" hidden><span class="radio-style"></span>市委书记、市长</span>
+            <label class="radio-block"><input type="radio" name="who" value="县委书记、市长" hidden><span class="radio-style"></span>县委书记、市长</span>
+            <label class="radio-block"><input type="radio" name="who" value="乡镇、街道、村等基层领导干部" hidden><span class="radio-style"></span>乡镇、街道、村等基层领导干部</span>
+            <label class="radio-block"><input type="radio" name="who" value="其他" hidden><span class="radio-style"></span>其他</span>
+      
+          </div>
+      
+          <div class="check-box radio">
+            <h3>2.7 您的留言得到回复办理了吗？</h3>
+            <label class="radio-block"><input type="radio" name="reply" value="已回复" hidden><span class="radio-style"></span>已回复</span>
+            <label class="radio-block"><input type="radio" name="reply" value="未回复" hidden><span class="radio-style"></span>未回复</span>
+            <label class="radio-block"><input type="radio" name="reply" value="正在办理中" hidden><span class="radio-style"></span>正在办理中</span>
+      
+          </div>
+      
+          <div class="check-box radio">
+            <h3>2.8 办理单位的解决力度如何？</h3>
+            <label class="radio-block"><input type="radio" name="intensity" value="很小" hidden><span class="radio-style"></span>很小</span>
+            <label class="radio-block"><input type="radio" name="intensity" value="较小" hidden><span class="radio-style"></span>较小</span>
+            <label class="radio-block"><input type="radio" name="intensity" value="一般" hidden><span class="radio-style"></span>一般</span>
+            <label class="radio-block"><input type="radio" name="intensity" value="较大" hidden><span class="radio-style"></span>较大</span>
+            <label class="radio-block"><input type="radio" name="intensity" value="很大" hidden><span class="radio-style"></span>很大</span>
+          </div>
+      
+          <div class="check-box radio">
+            <h3>2.9 办理单位一般多长时间能对您的问题给出答复？</h3>
+            <label class="radio-block"><input type="radio" name="answer" value="1天内" hidden><span class="radio-style"></span>1天内</span>
+            <label class="radio-block"><input type="radio" name="answer" value="1-3天（不含1天内）" hidden><span class="radio-style"></span>1-3天（不含1天内）</span>
+            <label class="radio-block"><input type="radio" name="answer" value="3-5天（不含3天内）" hidden><span class="radio-style"></span>3-5天（不含3天内）</span>
+            <label class="radio-block"><input type="radio" name="answer" value="5-10天（不含5天内）" hidden><span class="radio-style"></span>5-10天（不含5天内）</span>
+            <label class="radio-block"><input type="radio" name="answer" value="10-15天（不含10天内）" hidden><span class="radio-style"></span>10-15天（不含10天内）</span>
+            <label class="radio-block"><input type="radio" name="answer" value="15-30天（不含15天内）" hidden><span class="radio-style"></span>15-30天（不含15天内）</span>
+            <label class="radio-block"><input type="radio" name="answer" value="30天以上" hidden><span class="radio-style"></span>30天以上</span>
+      
+          </div>
+      
+          <div class="check-box radio">
+            <h3>2.10 办理单位的沟通态度如何？</h3>
+            <label class="radio-block"><input type="radio" name="attitude" value="很差" hidden><span class="radio-style"></span>很差</span>
+            <label class="radio-block"><input type="radio" name="attitude" value="较差" hidden><span class="radio-style"></span>较差</span>
+            <label class="radio-block"><input type="radio" name="attitude" value="一般" hidden><span class="radio-style"></span>一般</span>
+            <label class="radio-block"><input type="radio" name="attitude" value="较好" hidden><span class="radio-style"></span>较好</span>
+            <label class="radio-block"><input type="radio" name="attitude" value="很好" hidden><span class="radio-style"></span>很好</span>
+            
+          </div>
+      
+          <div class="check-box radio">
+            <h3>2.11 与其他沟通渠道相比，网上群众工作平台是否更有助于解决您的问题？</h3>
+            <label class="radio-block"><input type="radio" name="environment" value="能更好地解决问题" hidden><span class="radio-style"></span>能更好地解决问题</span>
+            <label class="radio-block"><input type="radio" name="environment" value="不能更好地解决问题" hidden><span class="radio-style"></span>不能更好地解决问题</span>
+      
+          </div>
+      
+          <div class="check-box radio">
+            <h3>2.12 通过网上群众工作平台留言反映问题，您认为各项操作是否便捷？</h3>
+            <label class="radio-block"><input type="radio" name="convenient" value="很不方便" hidden><span class="radio-style"></span>很不方便</span>
+            <label class="radio-block"><input type="radio" name="convenient" value="较不方便" hidden><span class="radio-style"></span>较不方便</span>
+            <label class="radio-block"><input type="radio" name="convenient" value="一般" hidden><span class="radio-style"></span>一般</span>
+            <label class="radio-block"><input type="radio" name="convenient" value="较方便" hidden><span class="radio-style"></span>较方便</span>
+            <label class="radio-block"><input type="radio" name="convenient" value="很方便" hidden><span class="radio-style"></span>很方便</span>
+      
+          </div>
+      
+          <div class="check-box radio">
+            <h3>2.13 您是否关注其他网友的留言？</h3>
+            <label class="radio-block"><input type="radio" name="follow" value="不关心" hidden><span class="radio-style"></span>不关心</span>
+            <label class="radio-block"><input type="radio" name="follow" value="一般" hidden><span class="radio-style"></span>一般</span>
+            <label class="radio-block"><input type="radio" name="follow" value="感兴趣" hidden><span class="radio-style"></span>感兴趣</span>
+      
+          </div>
+      
+          <div class="check-box radio">
+            <h3>2.14 您是通过哪种渠道得知此类留言平台的？</h3>
+            <label class="radio-block"><input type="radio" name="source" value="家人、朋友推荐" hidden><span class="radio-style"></span>家人、朋友推荐</span>
+            <label class="radio-block"><input type="radio" name="source" value="广告" hidden><span class="radio-style"></span>广告</span>
+            <label class="radio-block"><input type="radio" name="source" value="媒体报道" hidden><span class="radio-style"></span>媒体报道</span>
+          </div>
+          <div class="check-box radio">
+            <h3>2.15 您是否会继续在网上群众工作平台留言反映问题？</h3>
+            <label class="radio-block"><input type="radio" name="continue" value="会" hidden><span class="radio-style"></span>会</span>
+            <label class="radio-block"><input type="radio" name="continue" value="不会" hidden><span class="radio-style"></span>不会</span>
+          </div>
+      
+          <div class="check-box radio">
+            <h3>2.16 您对网上群众工作平台的功能改善有什么建议？ (开放性问题，请作答)</h3>
+            <textarea name="proposal"></textarea>
+          </div>
+        </div>
 
-    <div class="check-box radio">
-      <h3>1.2 您的年龄是</h3>
-      <label class="radio-block">
-        <input type="radio" hidden>
-        <span class="radio-style"></span>
-        10岁以下
-      </label>
-      <label class="radio-block">
-        <input type="radio" hidden>
-        <span class="radio-style"></span>
-        10-19岁
-      </label>
-      <label class="radio-block">
-        <input type="radio" hidden>
-        <span class="radio-style"></span>
-        10岁以下
-      </label>
-      <label class="radio-block">
-        <input type="radio" hidden>
-        <span class="radio-style"></span>
-        10-19岁
-      </label>
-      <label class="radio-block">
-        <input type="radio" hidden>
-        <span class="radio-style"></span>
-        20-29岁
-      </label>
-      <label class="radio-block">
-        <input type="radio" hidden>
-        <span class="radio-style"></span>
-        30-39岁
-      </label>
-      <label class="radio-block">
-        <input  type="radio" hidden>
-        <span class="radio-style"></span>
-        40-49岁
-      </label>
-      <label class="radio-block">
-        <input type="radio" hidden>
-        <span class="radio-style"></span>
-        50-59岁
-      </label>
-      <label class="radio-block">
-        <input type="radio" hidden>
-        <span class="radio-style"></span>
-        60岁以上
-      </label>
-    </div>
-
-    <div class="check-box radio">
-      <h3>1.3 您的教育程度是</h3>
-      <label class="radio-block">
-        <input type="radio" hidden>
-        <span class="radio-style"></span>
-        小学及以下
-      </label>
-      <label class="radio-block">
-        <input type="radio" hidden>
-        <span class="radio-style"></span>
-        初中
-      </label>
-      <label class="radio-block">
-        <input type="radio" hidden>
-        <span class="radio-style"></span>
-        高中\中专\技校
-      </label>
-      <label class="radio-block">
-        <input type="radio" hidden>
-        <span class="radio-style"></span>
-        大专
-      </label>
-      <label class="radio-block">
-        <input type="radio" hidden>
-        <span class="radio-style"></span>
-        本科
-      </label>
-      <label class="radio-block">
-        <input type="radio" hidden>
-        <span class="radio-style"></span>
-        硕士及以上
-      </label>
-    </div>
-
-
-    <div class="check-box radio">
-      <h3>1.4 您的职业是</h3>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>学生</label>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>学生</label>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>党政机关事业单位领导干部</label>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>党政机关失业单位一般职员</label>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>企业\公司高层管理人员</label>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>企业\公司一般职员</label>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>专业技术人员</label>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>商业服务业人员</label>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>制造生产型企业人员</label>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>农林牧渔水利业生产人员</label>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>个体劳动者</label>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>退休人员</label>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>无业\下岗\失业</label>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>其他</label>
-    </div>
-
-    <div class="check-box radio">
-      <h3>1.5 您的收入水平是</h3>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>无收入</label>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>500元以下</label>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>501-1000元</label>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>1001-1500元</label>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>1501-2000元</label>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>2001-3000元</label>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>3001-5000元</label>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>5001-8000元</label>
-      <label class="radio-block"><input type="radio" hidden><span class="radio-style"></span>8000元以上</label>
-    </div>
-
-    <!-- 提交按钮 -->
-    <input class="submit" type="button" value="提交">
-  </div>
+    
+        <!-- 提交按钮 -->
+        <input class="submit" type="button" value="提交">
+      </div>
+  </form>
+  <script>
+    function know (bool) {
+      if (bool) {
+        $('.know').hide()
+      } else {
+        $('.know').show()
+      }
+    }
+  </script>
   <!-- 框架script文件 -->
   <script src="http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js" type="text/javascript" charset="UTF-8"></script>
 </body>

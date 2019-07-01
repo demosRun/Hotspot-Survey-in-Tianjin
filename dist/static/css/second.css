@@ -58,11 +58,14 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
   max-width: 950px;
   margin: 3% auto;
   width: 87%;
+  background-image: url('http://theory.people.com.cn/img/MAIN/2017/09/117673/images/c_bg.jpg');
 }
 
 h1 {
   text-align: center;
-  line-height: 60px;
+  line-height: 110px;
+  font-size: 40px;
+  color: #e28a6f;
 }
 
 h2 {
@@ -203,4 +206,38 @@ textarea {
 
 .check-box:nth-last-child(2) {
   border: none;
+}
+
+/* 个人信息 */
+.info {
+  margin-top: 80px;
+}
+.info h2 {
+  width: 767px;
+  margin: 0 auto;
+  padding: 5px 0;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  line-height: 60px;
+}
+.info p.title {
+  width: 767px;
+  margin: 0 auto;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+.info p.title select, .info p.title input {
+  margin-left: 10px;
+  width: 129px;
+  height: 30px;
+  margin-right: 30px;
+  border: 1px solid #f4e6d8;
+}
+
+.info p.red {
+  text-align: center;
+  padding: 15px 0;
+  color: #d00;
 }

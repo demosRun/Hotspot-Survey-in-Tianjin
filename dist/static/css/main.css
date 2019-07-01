@@ -167,8 +167,7 @@ li {
 }
 
 [template=editor] strong {
-  color: #7f1c34;
-  font-weight: normal;
+  color: #921a3a;
   font-size: 19px;
 }
 aside[template=imageTitle] {
@@ -308,16 +307,16 @@ footer[template=copyright] {
 
 [template=home] .button-1 {
   left: 80px;
-  bottom: 10px;
+  bottom: 20px;
 }
 
 [template=home] .button-2 {
-  bottom: 10px;
+  bottom: 20px;
   left: 445px;
 }
 
 [template=home] .button-3 {
-  bottom: 10px;
+  bottom: 20px;
   left: 795px;
 }
 
@@ -351,7 +350,7 @@ footer[template=copyright] {
 
 [template=home] .news-list {
   background-color: #f2f6ff;
-  padding-bottom: 40px;
+  padding: 20px 0;
   margin-bottom: 40px;
   position: relative;
 }
